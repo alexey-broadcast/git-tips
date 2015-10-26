@@ -71,6 +71,12 @@ git reset --hard {{ commit }}
 ```
 git clean -fd
 ```
+
+Отменить изменения в одном файле
+
+```
+git checkout -- path/to/file
+```
 ## Config
 Изменить конфиг локально
 ```
