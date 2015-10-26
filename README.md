@@ -71,5 +71,25 @@ git reset --hard {{ commit }}
 ```
 git clean -fd
 ```
-
+## Config
+Изменить конфиг локально
+```
+git config user.name "John Doe"
+git config user.email user@example.com
+```
+Вывод конфига
+```
+git config --list
+```
 ## Github
+
+Вывод конфига удаленного репозитория
+
+```
+git remote -v
+```
+
+Добавить upstream
+```
+git remote add upstream https://github.com/octocat/Spoon-Knife.git
+```
